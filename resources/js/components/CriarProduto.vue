@@ -6,11 +6,11 @@
                 <form action="" @submit.prevent="addProduto">
                     <div class="form-group">
                         <label for="">Nome</label>
-                        <input type="text" name="" id="" class="form-controle" v-model="produto.nome">
+                        <input type="text" name="" id="" class="form-control" v-model="produto.nome">
                     </div>
                     <div class="form-group">
                         <label for="">Detalhe</label>
-                        <input type="text" name="" id="" class="form-controle" v-model="produto.detalhe">
+                        <input type="text" name="" id="" class="form-control" v-model="produto.detalhe">
                     </div>
                     <button type="submit" class="btn btn-primary">Criar</button>
                 </form>
